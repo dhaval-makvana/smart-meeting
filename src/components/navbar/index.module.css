@@ -1,0 +1,22 @@
+.navbar {
+  height: 80px;
+  background-color: bisque;
+  color: brown;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,47 @@
+.content {
+  height: calc(100vh - 80px);
+  width: 100vw;
+}
+
+.content form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.formField {
+  min-height: 80px;
+  width: 40%;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formField label {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.formField input, select {
+  width: 80%;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  border: 2px solid #ddd;
+  border-radius: 9px;
+  height: 35px;
+  margin: 5px 0px;
+  padding: 2px 4px;
+}
+
+.formField input::placeholder {
+  opacity: 0.6;
+  color: black
+}

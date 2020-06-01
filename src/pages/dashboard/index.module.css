@@ -1,0 +1,31 @@
+.content {
+  height: calc(100vh - 80px);
+}
+
+.dropdownContainer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+}
+
+.addMeetingContainer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roomsContainer {
+  height: calc(100% - 160px);
+  width: 100%;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 40%;
+}
